@@ -1,0 +1,10 @@
+{
+    "eslint.alwaysShowStatus": true,
+    "eslint.autoFixOnSave": true,
+    "eslint.lintTask.enable": true,
+    "editor.formatOnSave": true,
+    "javascript.format.enable": true,
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnType": true,
+    "eslint.enable": true
+}
