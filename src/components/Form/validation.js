@@ -13,5 +13,5 @@ export const validationSchema = Yup.object().shape({
 export const initialValues = {
   old_url: '',
   new_url: '',
-  prefix: ''
+  prefix: 'wp_'
 }

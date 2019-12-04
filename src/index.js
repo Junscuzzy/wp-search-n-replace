@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { ThemeProvider } from '@material-ui/core/styles'
 
-import App from './App'
+import App from './components/App'
 import * as serviceWorker from './serviceWorker'
 import theme from './theme'
 
