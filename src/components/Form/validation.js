@@ -5,7 +5,6 @@ export const validationSchema = Yup.object().shape({
     .url('Old url is not valid!')
     .required('Old url is required!'),
   new_url: Yup.string()
-    .url('New url is not valid!')
     .required('New url is required!'),
   prefix: Yup.string().required('New url is required!')
 })
