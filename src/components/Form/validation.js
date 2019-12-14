@@ -2,7 +2,6 @@ import * as Yup from 'yup'
 
 export const validationSchema = Yup.object().shape({
   old_url: Yup.string()
-    .url('Old url is not valid!')
     .required('Old url is required!'),
   new_url: Yup.string()
     .required('New url is required!'),
